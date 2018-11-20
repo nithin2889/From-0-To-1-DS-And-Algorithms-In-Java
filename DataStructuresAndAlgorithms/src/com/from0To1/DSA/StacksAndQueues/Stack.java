@@ -16,7 +16,6 @@ public class Stack<T> {
 		size++;
 	}
 
-	@SuppressWarnings("unchecked")
 	public T pop() throws StackUnderflowException {
 		if (size == 0) {
 			throw new StackUnderflowException("Stack is empty. Cannot pop any elements from it.");

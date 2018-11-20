@@ -3,9 +3,9 @@ package com.from0To1.DSA.StacksAndQueues;
 public class Element<T> {
 
 	private T data;
-	private Element next;
+	private Element<T> next;
 
-	public Element(T data, Element next) {
+	public Element(T data, Element<T> next) {
 		this.data = data;
 		this.next = next;
 	}
@@ -18,11 +18,11 @@ public class Element<T> {
 		this.data = data;
 	}
 
-	public Element getNext() {
+	public Element<T> getNext() {
 		return next;
 	}
 
-	public void setNext(Element next) {
+	public void setNext(Element<T> next) {
 		this.next = next;
 	}
 
