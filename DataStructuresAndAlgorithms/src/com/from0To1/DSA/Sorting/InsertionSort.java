@@ -1,4 +1,4 @@
-package com.from0To1.DSA.sorting;
+package com.from0To1.DSA.Sorting;
 
 public class InsertionSort {
 
