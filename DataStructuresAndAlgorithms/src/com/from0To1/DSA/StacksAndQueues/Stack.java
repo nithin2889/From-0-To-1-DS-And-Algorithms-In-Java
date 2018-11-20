@@ -34,5 +34,17 @@ public class Stack<T> {
 		T topElement = top.getData();
 		return topElement;
 	}
+	
+	public boolean isEmpty() {
+		return size == 0;
+	}
+	
+	public boolean isFull() {
+		return size == MAX_SIZE;
+	}
+	
+	public int getSize() {
+		return size;
+	}
 
 }
